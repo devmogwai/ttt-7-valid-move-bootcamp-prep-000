@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?
-  return 4 == 5
+  puts 4 == 5
 end
 
 
