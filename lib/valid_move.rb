@@ -1,7 +1,6 @@
 # code your #valid_move? method here
-def valid_move?
-  x = 5 == 4
-  puts x
+def valid_move? (board, index)
+  return position_taken?(board, index) && board[index] 
 end
 
 
@@ -15,5 +14,3 @@ def position_taken?(board, index)
     return true
   end
 end
-
-valid_move?
