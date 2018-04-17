@@ -15,4 +15,4 @@ def position_taken?(board, index)
   end
 end
 
-puts "hello!"
+valid_move([" ", " "], 1)
